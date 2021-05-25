@@ -1,0 +1,60 @@
+.container{
+    background-color: rgb(130, 167, 75);
+    padding: 35px 10px;
+    margin: auto;
+    width: 30%;
+}
+
+.sub-container{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input{
+    margin-bottom:50px;
+}
+
+button{
+
+    border-radius: 10px;
+    color: white;
+    font-size: 8px;
+    padding:3px 12px;
+    cursor: pointer;
+}
+
+#add{
+    background-color: rgb(57, 160, 245);
+    border: 1px solid rgb(57, 160, 245);
+}
+#clear{
+    background-color: rgb(57, 160, 245);
+    border: 1px solid rgb(57, 160, 245);
+}
+#empty{
+    background-color: rgb(92, 41, 17);
+    border: 1px solid rgb(92, 41, 17);
+}
+#save{
+    background-color: rgb(130, 167, 75);
+    border: 1px solid  rgb(130, 167, 75);
+}
+
+p{
+    font-size: 13px;
+    color: gray;
+}
+li{
+    font-size: 13px;
+}
+
+li#todolist {
+    background-color: lightgray;
+    text-decoration: line-through;
+    color: gray;
+}
