@@ -1,0 +1,54 @@
+.container{
+    margin: auto;
+    width: 25%;
+    background-color: blue;
+}
+ 
+.sub-container{
+margin-left:20px;
+margin-right:20px;
+padding-bottom: 20px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex;
+}
+
+#head{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+input[type="text"]{
+    border: 1px solid white;
+    width: 95%;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+#c,
+#zero,
+#one,
+#plus,
+#two,
+#three,
+#four,
+#minus,
+#five,
+#six,
+#seven,
+#star,
+#eight,
+#nine,
+#equal,
+#divide{
+    font-size: 10px;
+    padding: 5px;
+    margin:2px;
+    width: 90%;
+    font-weight: bold;
+    text-align: center;
+}
