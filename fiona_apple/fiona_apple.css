@@ -1,0 +1,53 @@
+/* The lesson here is how to form grids  */
+body{
+    background-color: black;
+    color: lightgray
+}
+
+img#imag{
+    width: 100%;
+    height: 90vh;
+}
+
+p#about,#footer{
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+margin-bottom: 2px;
+}
+
+.about,.footer{
+    margin:10%
+}
+
+.text-img{
+    display: flex;
+}
+
+.gridpics{
+    display: grid;
+    grid-template-columns: 50% 30%;
+    
+}
+
+#text1,#text2{
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+#gridImage{
+    width: 90px;
+    border: 2px solid white;
+}
+
+.footerImages{
+    display: flex;
+}
+#footerImage{
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
