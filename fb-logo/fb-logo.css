@@ -4,8 +4,9 @@
   justify-content: center;
   height: 100vh;
 }
+
 #f-letter{
-    background-color: rgb(127, 127, 230);
+    background-color: rgb(12, 12, 77);
     color: white;
     font-size: 200px;
     border-radius: 50%;
@@ -13,13 +14,12 @@
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
- /* 
- The Gaol of this course 
- recap about flex box 
- recap about google inspect  
- */
- /* 
- Things learnt 
- - we align items which are inside a flex box div 
- -
- */
+
+ /* div {
+  background-color: red;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  border-radius:50%;
+} */
