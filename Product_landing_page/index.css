@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation*/
+
+.navigations{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.nav ul{
+    display: flex;
+}
+
+li#nv{
+    margin:25px;
+    font-size: 25px;
+    list-style: none;
+    margin-left: 70px;
+}
+#nv a{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+ 
+img {
+    width: 70%;
+}

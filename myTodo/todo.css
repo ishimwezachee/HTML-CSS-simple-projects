@@ -1,60 +1,83 @@
-.container{
+* {
+    box-sizing: border-box;
+}
+
+.container {
     background-color: rgb(130, 167, 75);
     padding: 35px 10px;
-    margin: auto;
-    width: 30%;
+    margin: 150px auto;
+    width: 35%;
 }
 
-.sub-container{
+.sub-container {
     background-color: white;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 30px;
+    width: 90%;
+    height: 60vh;
+    margin: auto;
 }
 
-.buttons{
+.buttons {
     display: flex;
     justify-content: space-evenly;
 }
-.input{
-    margin-bottom:50px;
+
+.input {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+input#input {
+    border-radius: 6px;
+    padding: 2px;
+    border: 1px solid;
+    height: 25px;
 }
 
-button{
-
+button {
     border-radius: 10px;
     color: white;
-    font-size: 8px;
-    padding:3px 12px;
+    font-size: 15px;
+    padding: 3px 12px;
     cursor: pointer;
 }
 
-#add{
+#add {
     background-color: rgb(57, 160, 245);
     border: 1px solid rgb(57, 160, 245);
-}
-#clear{
-    background-color: rgb(57, 160, 245);
-    border: 1px solid rgb(57, 160, 245);
-}
-#empty{
-    background-color: rgb(92, 41, 17);
-    border: 1px solid rgb(92, 41, 17);
-}
-#save{
-    background-color: rgb(130, 167, 75);
-    border: 1px solid  rgb(130, 167, 75);
 }
 
-p{
-    font-size: 13px;
-    color: gray;
+#clear {
+    background-color: rgb(57, 160, 245);
+    border: none;
 }
-li{
-    font-size: 13px;
+
+#empty {
+    background-color: rgb(92, 41, 17);
+    border: none;
+}
+
+#save {
+    background-color: rgb(130, 167, 75);
+}
+
+p {
+    font-size: 15px;
+    color: gray;
+    margin-left: 20px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+li {
+    font-size: 15px;
 }
 
 li#todolist {
     background-color: lightgray;
     text-decoration: line-through;
-    color: gray;
+    color: rgb(83, 83, 83);
 }
