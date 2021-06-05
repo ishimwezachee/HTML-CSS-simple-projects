@@ -45,21 +45,22 @@ button {
 
 #add {
     background-color: rgb(57, 160, 245);
-    border: 1px solid rgb(57, 160, 245);
 }
 
 #clear {
     background-color: rgb(57, 160, 245);
-    border: none;
 }
 
 #empty {
     background-color: rgb(92, 41, 17);
-    border: none;
 }
 
 #save {
     background-color: rgb(130, 167, 75);
+}
+
+#add,#clear,#emty,#save{
+    border: none;
 }
 
 p {
