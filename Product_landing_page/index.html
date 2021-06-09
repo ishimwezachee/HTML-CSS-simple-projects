@@ -13,43 +13,56 @@
 <body>
     <div class="navigations">
     <div class="images">
-        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt=""></div>
+        <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt=""></div>
     <div class="nav">
-        <ul>
+        <ul class="list1">
             <li id="nv">
-                <a href="#">Features</a>
+                <a id="link1" href="#">Features</a>
             </li>
             <li id="nv">
-                <a href="#">How It Works</a>
+                <a id="link1" href="#">How It Works</a>
             </li>
             <li id="nv">
-                <a href="#">Pricing</a>
+                <a id="link1" href="#">Pricing</a>
             </li>
         </ul>
     </div>
 </div>
 <div class="container">
-    <section></section>
+    <section class="inputs">
+       <h2>Handcrafted, home-made masterpieces</h2>
+       <input type="email" placeholder="type your email">
+      <div>
+        <button id="start">GET STARTED</button>
+      </div>
+    </section>
     <section class="features">
         <div class="grid">
             <i class="fa fa-3x fa-fire"></i>
+          <div class="tex1 anotherText">
             <h2>Premuium Materials</h2>
             <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
         </div>
-        <div class="grid">
+        <div class="grid ">
             <i class="fa fa-3x fa-truck"></i>
+            <div class="tex1">
             <h2>Fast Shiping</h2>
             <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
         </div>
+        </div>
         <div class="grid">
             <i class="fa fa-3x fa-battery-full"></i>
+            <div class="tex1">
             <h2>Quality Assurance</h2>
             <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
         </div>
     </section>
     <section id="how-it-works-video">
         <iframe
         id="video"
+        width="500"
         height="315" 
         src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" 
         frameborder="0"
