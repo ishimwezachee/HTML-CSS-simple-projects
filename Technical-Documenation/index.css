@@ -8,7 +8,6 @@ body{
 
 nav{
     background-color: rgb(238, 238, 238);
-    border: 2px solid black;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -18,10 +17,16 @@ nav{
 
 #aside-navigations li{
   width: 100%;
-  border-top: 1px solid black;
+  border: 1px solid black;
   padding-top: 10px;
   padding-bottom: 15px;
   padding-left: 15px;
+}
+
+li a{
+    background-color: rgb(238, 238, 238);
+    text-decoration: none;
+    color: black;
 }
 
 #aside-navigations{
@@ -31,9 +36,11 @@ nav{
     padding-left: 0;
     margin-right:5px;
 }
-
+ ul {
+     list-style: none;
+ }
 main{
-    margin-left: 22rem;
+    margin-left: 21.5rem;
     background-color: rgb(243, 243, 243);
 }
  h1 {
@@ -44,8 +51,9 @@ main{
     margin-left: 3rem;
 }
 
-p,code{
+p, code{
     margin-left: 4rem;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
+
