@@ -47,3 +47,39 @@ h1{
    background-image: linear-gradient(62deg,#3a3d40,#181719 100%);
    font-size:30px;
 }
+#work{
+    background-color: #45567d;
+}
+h2{
+    color: white;
+    font-size: 2.5rem;
+    margin: auto;
+    width: 38%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Rareway',sans-serif;
+    border-bottom: 2px solid white;
+}
+
+.project{
+    background: #303841;
+    width: 27%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.Project_image{
+    width: 100%;
+    height: 22rem;
+}
+.project-title p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
