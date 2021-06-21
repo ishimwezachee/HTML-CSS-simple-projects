@@ -52,7 +52,7 @@ h1{
 }
 h2{
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: auto;
     width: 38%;
     padding-top: 30px;
@@ -82,4 +82,38 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+button{
+    background-color:#303841;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact{
+    background-color: #303841;
+}
+.contact_text{
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  padding: 40px;
+}
+
+.contact_text h1{
+    font-size: 50px;
+}
+
+.contact_text p{
+    margin:1.5rem 0;
+    font-size: 23px;
+    font-style: oblique;
+    color:gray;
 }
