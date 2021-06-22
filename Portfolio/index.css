@@ -1,119 +1,159 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     box-sizing: border-box;
 }
 
-.nav{
+.nav {
     background-color: #BE3144;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 0 rgb(0 0 0 /40%);
 }
-ul{
+
+ul {
     list-style: none;
 }
-.nav ul{
+
+.nav ul {
     display: flex;
     justify-content: flex-end;
 }
 
-li{
-    margin: 25px;
+li {
+    padding: 25px;
     font-size: 25px;
     font-family: monospace;
 }
 
-li a{
+li:hover {
+    background-color: rgb(46, 27, 112);
+}
+
+li a {
     text-decoration: none;
     color: white;
 }
-h1{
+
+h1 {
     color: white;
 }
 
-#par{
-    color:#be3144 ;
+#par {
+    color: #be3144;
     font-style: oblique;
 }
 
-.intro{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 90vh;
-   flex-direction: column;
-   background-color:black;
-   background-image: linear-gradient(62deg,#3a3d40,#181719 100%);
-   font-size:30px;
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    background-color: black;
+    background-image: linear-gradient(62deg, #3a3d40, #181719 100%);
+    font-size: 30px;
 }
-#work{
+
+#work {
     background-color: #45567d;
 }
-h2{
+
+h2 {
     color: white;
     font-size: 2rem;
     margin: auto;
-    width: 38%;
+    width: 30%;
     padding-top: 30px;
     padding-bottom: 10px;
-    font-family: 'Rareway',sans-serif;
+    font-family: 'Rareway', sans-serif;
     border-bottom: 2px solid white;
 }
 
-.project{
+.project {
     background: #303841;
     width: 27%;
     margin-top: 50px;
     margin-bottom: 20px;
 }
-.Project_image{
+
+.Project_image {
     width: 100%;
     height: 22rem;
 }
-.project-title p{
+
+.project-title p {
     color: white;
     text-align: center;
     font-size: 25px;
     padding: 30px;
 }
 
-.projects{
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-button{
-    background-color:#303841;
+button {
+    background-color: #303841;
     color: white;
     font-weight: bold;
-    padding: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
 }
 
-.btn{
+.btn {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-#contact{
+#contact {
     background-color: #303841;
 }
-.contact_text{
-  text-align: center;
-  color: white;
-  font-family: monospace;
-  padding: 40px;
+
+.contact_text {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    padding: 40px;
 }
 
-.contact_text h1{
+.contact_text h1 {
     font-size: 50px;
 }
 
-.contact_text p{
-    margin:1.5rem 0;
+.contact_text p {
+    margin: 2rem 0;
     font-size: 23px;
     font-style: oblique;
-    color:gray;
+    color: rgb(179, 179, 179);
+}
+
+.youtube,
+.linkedIn,
+.github,
+.call,
+.email {
+    font-size: 2rem;
+    color: white;
+}
+
+#contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px 100px 0px;
 }
